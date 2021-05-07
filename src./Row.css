@@ -1,0 +1,35 @@
+.row{
+    color: white;
+    margin-left: 20px;
+}
+.row_posters {
+    /* Display Flex without this it shows in column form image */
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px; /* avoid Crooping */
+}
+.row_posters::-webkit-scrollbar{
+    display:none;/* For no scroll bar */
+}
+
+.row_poster {
+    object-fit:contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row_poster:hover {
+   transform: scale(1.08); /* Smooth hover  */
+
+}
+.row_posterLarge {
+    max-height: 250px;
+}
+
+.row_posterLarge:hover {
+    transform:scale(1.09);
+
+}
