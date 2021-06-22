@@ -13,3 +13,5 @@
 ### Live Site Demo
 
 Demo: [Link](https://aflix-1c03c.web.app/)
+
+#Due to google firebase Website have some glitches 
